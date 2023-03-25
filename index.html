@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tour | Safaries</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="assets/images/favicon.png"
+      type="image/gif"
+      sizes="20x20"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+
+    <link rel="stylesheet" href="assets/css/select2.min.css" />
+
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+
+    <link href="assets/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- <div class="mobile-search">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-11">
+            <label>What are you lookking for?</label>
+            <input type="text" placeholder="Search Products, Category, Brand" />
+          </div>
+          <div class="col-1 d-flex justify-content-end align-items-center">
+            <div class="search-cross-btn">
+              <i class="bi bi-x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="category-sidebar-wrapper">
+      <div class="category-sidebar">
+        <div
+          class="category-header d-flex justify-content-between align-items-center"
+        >
+          <h4>Category</h4>
+          <div class="category-toggle">
+            <i class="bi bi-x-lg"></i>
+          </div>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-2 gy-5 mt-3">
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate1.svg" alt="" />
+              </div>
+              <h5>Adventure</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate2.svg" alt="" />
+              </div>
+              <h5>Group Tour</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate3.svg" alt="" />
+              </div>
+              <h5>Couple Tour</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate4.svg" alt="" />
+              </div>
+              <h5>Single Tour</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate5.svg" alt="" />
+              </div>
+              <h5>Honeymoon</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate6.svg" alt="" />
+              </div>
+              <h5>Sea Beach</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate7.svg" alt="" />
+              </div>
+              <h5>Mountain Tour</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar-area topbar-style-two d-sm-flex d-none">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 d-md-flex d-none justify-content-start align-items-center"
+          >
+            <div class="topbar-contact-left">
+              <ul class="contact-list">
+                <li>
+                  <i class="bi bi-telephone-fill"></i>
+                  <a href="tel:+17632275032">+255 736-273-2737</a>
+                </li>
+                <li>
+                  <i class="bi bi-envelope-fill"></i>
+                  <a
+                    href="https://demo.egenslab.com/cdn-cgi/l/email-protection#167f78707956736e777b667a733875797b"
+                    ><span
+                      class="__cf_email__"
+                      data-cfemail="fa93949c95ba9f829b978a969fd4999597"
+                      >alaminTour@gmail.com</span
+                    ></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 d-flex justify-content-md-end justify-content-center align-items-center"
+          >
+            <ul class="topbar-social-links">
+              <li>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+              </li>
+              <!-- <li>
+                <a href="#"><i class="bx bxl-pinterest"></i></a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="header-area header-style-four position-absolute w-100">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-xxl-2 col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 align-items-center d-xl-flex d-lg-block"
+            >
+              <div
+                class="nav-logo d-flex justify-content-between align-items-center"
+              >
+                <a href="index.html"
+                  ><img src="assets/images/logo-w.png" alt="logo"
+                /></a>
+                <div class="mobile-menu d-flex">
+                  <div class="d-flex align-items-center">
+                    <div
+                      class="nav-right-icons d-xl-none d-flex align-items-center"
+                    >
+                      <div class="user-dropdown">
+                        <a href="contact.html"><i class="bx bx-user-circle"></i></a>
+                      </div>
+
+                      <div class="category-toggle">
+                        <i class="bx bx-category"></i>
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      class="hamburger d-block d-xl-none"
+                    >
+                      <span class="h-top"></span>
+                      <span class="h-middle"></span>
+                      <span class="h-bottom"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-8 col-sm-6 col-xs-6">
+              <nav class="main-nav">
+                <div class="inner-logo d-xl-none text-center">
+                  <a href="#"><img width="1px" height="20px"  src="assets/images/logo.png" alt="" /></a>
+                </div>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="destination.html">Destination</a></li>
+
+                  <li class="has-child-menu">
+                    <a href="javascript:void(0)">Package</a>
+                    <i class="fl flaticon-plus">+</i>
+                    <ul class="sub-menu">
+                      <li><a href="tour-park.html">Tours Package</a></li>
+                      <li>
+                        <a href="safari-park.html">Safaries Package</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li><a href="gallary.html">Gallary</a></li>
+
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="inner-contact-options d-xl-none">
+                  <div class="contact-box-inner">
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="tel:+17632275032">+255 736-273-2737</a>
+                  </div>
+                  <div class="contact-box-inner">
+                    <i class="bi bi-envelope-fill"></i>
+                    <a
+                      href="https://demo.egenslab.com/cdn-cgi/l/email-protection#4920272f26092c31282439252c672a2624"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="1f767179705f7a677e726f737a317c7072"
+                        >alaminTour@gmail.com</span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="col-xxl-3 col-xl-2 col-lg-1">
+              <div class="nav-right d-xl-flex d-none">
+                <div class="nav-right-icons gap-3">
+                  <!-- <div class="header-search search-btn">
+                    <i class="bx bx-search-alt"></i>
+                  </div> -->
+                  <div class="category-toggle">
+                    <i class="bx bx-category"></i>
+                  </div>
+                </div>
+                <div class="nav-right-hotline d-xxl-flex d-none">
+                  <div class="hotline-icon">
+                    <img src="assets/images/icons/header-phone.svg" alt="" />
+                  </div>
+                  <div class="hotline-info">
+                    <span>Hot Line Number</span>
+                    <h6><a href="tel:8801761111456">+255 736-273-2737</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-area hero-style-four">
+      <img
+        src="assets/images/banner/banner-plane.svg"
+        class="img-fluid banner-plane"
+      />
+      <img
+        src="assets/images/banner/banner-star1.svg"
+        class="banner-star1"
+        alt=""
+      />
+      <img
+        src="assets/images/banner/banner-star2.svg"
+        class="banner-star2"
+        alt=""
+      />
+      <img
+        src="assets/images/banner/banner-star3.svg"
+        class="banner-star3"
+        alt=""
+      />
+      <div class="hero-main-wrapper position-relative">
+        <div class="swiper hero-slider-four">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider-bg-1">
+                <div class="container">
+                  <div
+                    class="row d-flex justify-content-lg-start justify-content-center align-items-center"
+                  >
+                    <div class="col-xl-7 col-lg-7">
+                      <div class="hero4-content">
+                        <h1>UNCOVER THE NATURAL WONDERS OF TANZANIA WITH FAITHFUL TOUR AND TRAVELING AGENCY</h1>
+                        <!-- <p>
+                          A charitable organization or charity is an
+                          organization whose primary objectives are philanthr
+                        </p> -->
+                        <a href="#" class="button-fill-primary banner3-btn"
+                          >View Adventures</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-bg-2">
+                <div class="container">
+                  <div
+                    class="row d-flex justify-content-lg-start justify-content-center align-items-center"
+                  >
+                    <div class="col-xl-7 col-lg-7">
+                      <div class="hero4-content">
+                        <h1>EMBARK ON AN UNFORGETTABLE JOURNEY TO TANZANIA'S 
+                          SPECTACULAR BEAUTY WITH FAITHFUL TOUR AND TRAVELING AGENCY</h1>
+                        <!-- <p>
+                          A charitable organization or charity is an
+                          organization whose primary objectives are philanthr
+                        </p> -->
+                        <a href="#" class="button-fill-primary banner3-btn"
+                          >View Adventures</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="slider-arrows text-center d-lg-flex flex-column d-none gap-5"
+        >
+          <div
+            class="hero-prev3"
+            tabindex="0"
+            role="button"
+            aria-label="Previous slide"
+          >
+            <i class="bi bi-arrow-left"></i>
+          </div>
+          <div
+            class="hero-next3"
+            tabindex="0"
+            role="button"
+            aria-label="Next slide"
+          >
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="searchbar-section home4">
+      <div class="container">
+        <div class="multi-main-searchber">
+          <div class="row g-4">
+            <div class="col-lg-10">
+              <div class="row gx-0 gy-4">
+                <div class="col-lg-3 col-md-6">
+                  <div class="search-box-single destination-box">
+                    <div class="searchbox-icon">
+                      <i class="bi bi-geo-alt"></i>
+                    </div>
+                    <div class="searchbox-input">
+                      <label for="deatination_drop">Destination</label>
+                      <select
+                        data-placeholder="Where Are You Going?"
+                        id="deatination_drop"
+                      >
+                        <option value="">Where Are You Going?</option>
+                        <optgroup label="Tanzania">
+                          <option>Mountain Kilimanjaro</option>
+                          <option>Lake Tanganyika</option>
+                          <option>Mikumi Park</option>
+                          <option>Ngororo</option>
+                          <!-- <option>New Delhi</option> -->
+                        </optgroup>
+                        <optgroup label="Zanzibar">
+                          <option>Cendwa Cave</option>
+                          <option>Nakupenda Island</option>
+                          <option>Prison Island</option>
+                          <option>Stone Town</option>
+                        </optgroup>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="search-box-single type-box">
+                    <div class="searchbox-icon">
+                      <i class="bi bi-text-paragraph"></i>
+                    </div>
+                    <div class="searchbox-input">
+                      <label for="activity-dropdown">Travel Type</label>
+                      <select
+                        class="defult-select-drowpown"
+                        data-placeholder="All Activity"
+                        id="activity-dropdown"
+                      >
+                        <option value="">All Activity</option>
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                        <option value="4">Type 4</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="search-box-single type-box">
+                    <div class="searchbox-icon">
+                      <i class="bi bi-person-plus"></i>
+                    </div>
+                    <div class="searchbox-input">
+                      <label for="person-dropdown">Person</label>
+                      <select
+                        class="defult-select-drowpown"
+                        id="person-dropdown"
+                      >
+                        <option selected value="0">01</option>
+                        <option value="1">02</option>
+                        <option value="2">03</option>
+                        <option value="3">04</option>
+                        <option value="4">05</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="search-box-single date-box">
+                    <div class="searchbox-icon">
+                      <i class="bi bi-capslock"></i>
+                    </div>
+                    <div class="searchbox-input date-picker-input">
+                      <label for="datepicker">When</label>
+                      <input
+                        placeholder="Select your date"
+                        type="text"
+                        name="checkIn"
+                        id="datepicker"
+                        value=""
+                        class="calendar"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="main-form-submit">
+                <button type="submit">Find Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------- Start Destination Container ---------------------- -->
+
+    <div class="destination-area destination-style-two pt-110 pb-110">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-sm-10">
+            <div class="section-head-alpha text-center mx-auto">
+              <h2>Among the Tanzania Attractions</h2>
+              <p>
+                This are some tourist destinations and natural wonders that can be 
+                found in Tanzania, such as Mount Kilimanjaro, Zanzibar Stone Town, the Serengeti National 
+                Park, and the Ngorongoro Crater.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center g-4">
+          <div class="col-lg-6 col-md-12 col-sm-10">
+            <div class="destination-item">
+              <div class="destination-img">
+                <img src="assets/images/destination/top-ds1.jpg" alt="" />
+              </div>
+              <div class="destination-overlay">
+                <div class="content">
+                  <a href="destination-details.html"><h5>Prison Island</h5></a>
+                  <!-- <a href="destination-details.html"><h6>45 Place</h6></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-10">
+            <div class="destination-item">
+              <div class="destination-img">
+                <img src="assets/images/destination/img-6.jpg" alt="" />
+              </div>
+              <div class="destination-overlay">
+                <div class="content">
+                  <a href="destination-details.html"><h5>Kilimanjaro</h5></a>
+                  <!-- <a href="destination-details.html"><h6>35 Place</h6></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-10">
+            <div class="destination-item">
+              <div class="destination-img">
+                <img src="assets/images/destination/img-17.jpg" alt="" />
+              </div>
+              <div class="destination-overlay">
+                <div class="content">
+                  <a href="destination-details.html"><h5>Ngorongoro</h5></a>
+                  <!-- <a href="destination-details.html"><h6>15 Place</h6></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-10">
+            <div class="destination-item">
+              <div class="destination-img">
+                <img src="assets/images/destination/img-13.webp" alt="" />
+              </div>
+              <div class="destination-overlay">
+                <div class="content">
+                  <a href="destination-details.html"><h5>Zanzibar</h5></a>
+                  <!-- <a href="destination-details.html"><h6>34 Place</h6></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-10">
+            <div class="destination-item">
+              <div class="destination-img">
+                <img src="assets/images/destination/img-8.jpg" alt="" />
+              </div>
+              <div class="destination-overlay">
+                <div class="content">
+                  <a href="destination-details.html"><h5>Stone Town</h5></a>
+                  <!-- <a href="destination-details.html"><h6>10 Place</h6></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-10">
+            <div class="destination-item">
+              <div class="destination-img">
+                <img src="assets/images/destination/top-ds4.jpg" alt="" />
+              </div>
+              <div class="destination-overlay">
+                <div class="content">
+                  <a href="destination-details.html" style="color: #ff4838;"><h5>House of Wonder</h5></a>
+                  <!-- <a href="destination-details.html"><h6>67 Place</h6></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------- End Destination Container ---------------------- -->
+
+    <div class="upcoming-tour-area pt-110 pb-110 chain mt-5">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div
+            class="col-lg-5 d-flex justify-content-lg-start justify-content-center"
+          >
+            <div class="section-head-alpha text-lg-start text-center">
+              <h2 class="text-white">Most Popular tour and Safaries</h2>
+              <p class="text-white">
+                If you're planning a trip to Tanzania, be sure to check out some 
+                of the top tourist attractions that the country has to offer. 
+                And if you want to explore even more areas, click on the 'show more' 
+                button below for additional recommendations.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-7 d-flex justify-content-lg-end justify-content-center"
+          >
+            <div
+              class="slider-arrows text-center d-lg-flex flex-row justify-content-center d-none gap-5"
+            >
+              <div
+                class="testi-prev4"
+                tabindex="0"
+                role="button"
+                aria-label="Previous slide"
+              >
+                <i class="bi bi-arrow-left"></i>
+              </div>
+              <div
+                class="testi-next4"
+                tabindex="0"
+                role="button"
+                aria-label="Next slide"
+              >
+                <i class="bi bi-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-12">
+            <div class="swiper upcoming-tour">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="package-card-delta">
+                    <div class="package-thumb">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#bookingForm"
+                        ><img src="assets/images/package/best-s6.jpg" alt=""
+                      /></a>
+                      <p class="card-lavel">
+                        <i class="bi bi-clock"></i> <span>3 hour to 6 hour</span>
+                      </p>
+                    </div>
+                    <div class="package-card-body">
+                      <h4 class="mb-4" style="color: #ff4838;">Prison Island Tour</h4>
+                      <h3 class="p-card-title">
+                        <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#bookingForm"
+                          >
+                          This is a popular tourist activity in
+                          Zanzibar that involves a boat trip to Changuu 
+                          Island to visit its historic prison ruins, 
+                          beaches, and snorkeling spots.
+                        </a
+                        >
+                      </h3>
+                      <div class="p-card-bottom">
+                        <div class="book-btn">
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#bookingForm"
+                            >Book Now <i class="bx bxs-right-arrow-alt"></i
+                          ></a>
+                        </div>
+                        <div class="p-card-info">
+                          <!-- <span>From</span> -->
+                          <h6>Payed <span>Per Person</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="package-card-delta">
+                    <div class="package-thumb">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#bookingForm"
+                        ><img src="assets/images/package/stoneTown.jpg" alt=""
+                      /></a>
+                      <p class="card-lavel">
+                        <i class="bi bi-clock"></i> <span>2 hour to 4 hour</span>
+                      </p>
+                    </div>
+                    <div class="package-card-body">
+                      <h4 class="mb-4" style="color: #ff4838;">Stone Town Tour</h4>
+                      <h3 class="p-card-title">
+                        <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#bookingForm"
+                          >This is a UNESCO site in 
+                          Tanzania - Zanzibar, known for its unique blend of 
+                          African, Arab, and Indian cultures. Visitors 
+                          come for its vibrant atmosphere, bustling markets, 
+                          and historical landmarks like the House 
+                          of Wonders and Old Fort.
+                        </a
+                        >
+                      </h3>
+                      <div class="p-card-bottom">
+                        <div class="book-btn">
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#bookingForm"
+                            >Book Now <i class="bx bxs-right-arrow-alt"></i
+                          ></a>
+                        </div>
+                        <div class="p-card-info">
+                          <!-- <span>From</span> -->
+                          <h6>Payed <span>Per Person</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="package-card-delta">
+                    <div class="package-thumb">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#bookingForm"
+                        ><img src="assets/images/package/dolphin.jpg" alt=""
+                      /></a>
+                      <p class="card-lavel">
+                        <i class="bi bi-clock"></i> <span>6 hour or 1 day</span>
+                      </p>
+                    </div>
+                    <div class="package-card-body">
+                      <h4 class="mb-4" style="color: #ff4838;">Dolphin Tour</h4>
+                      <h3 class="p-card-title">
+                        <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#bookingForm"
+                          >This is a popular tourist activity that involves
+                           taking a boat ride out to sea to spot 
+                           and swim with wild dolphins in their 
+                           natural habitat. It's a unique and exciting 
+                           experience for visitors to Zanzibar.
+                          </a
+                        >
+                      </h3>
+                      <div class="p-card-bottom">
+                        <div class="book-btn">
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#bookingForm"
+                            >Book Now <i class="bx bxs-right-arrow-alt"></i
+                          ></a>
+                        </div>
+                        <div class="p-card-info">
+                          <!-- <span>From</span> -->
+                          <h6>Payed <span>Per Person</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="package-card-delta">
+                    <div class="package-thumb">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#bookingForm"
+                        ><img src="assets/images/package/jonzani.jpg" alt=""
+                      /></a>
+                      <p class="card-lavel">
+                        <i class="bi bi-clock"></i> <span>4 hour to 6 hour</span>
+                      </p>
+                    </div>
+                    <div class="package-card-body">
+                      <h4 class="mb-4" style="color: #ff4838;">Jozani Forest Tour</h4>
+                      <h3 class="p-card-title">
+                        <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#bookingForm"
+                          >This is a protected natural 
+                          forest on Zanzibar Island in East Africa, 
+                          home to rare wildlife such as the Zanzibar 
+                          red colobus monkey. It's a popular tourist 
+                          destination for nature walks and wildlife 
+                          observation.
+                        </a>
+                      </h3>
+                      <div class="p-card-bottom">
+                        <div class="book-btn">
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#bookingForm"
+                            >Book Now <i class="bx bxs-right-arrow-alt"></i
+                          ></a>
+                        </div>
+                        <div class="p-card-info">
+                          <!-- <span>From</span> -->
+                          <h6>Payed <span>Per Person</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="package-card-delta">
+                    <div class="package-thumb">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#bookingForm"
+                        ><img src="assets/images/package/mikumi.jpg" alt=""
+                      /></a>
+                      <p class="card-lavel">
+                        <i class="bi bi-clock"></i> <span>6 hour or 1 day</span>
+                      </p>
+                    </div>
+                    <div class="package-card-body">
+                      <h4 class="mb-4" style="color: #ff4838;">Mikumi National Park</h4>
+                      <h3 class="p-card-title">
+                        <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#bookingForm"
+                          >This is a large national park 
+                          in southern Tanzania known for its diverse wildlife 
+                          and bird species, including lions, leopards, elephants, 
+                          giraffes, and over 400 species of birds. It is part of 
+                          the larger Selous ecosystem and is easily accessible by road.
+                          </a
+                        >
+                      </h3>
+                      <div class="p-card-bottom">
+                        <div class="book-btn">
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#bookingForm"
+                            >Book Now <i class="bx bxs-right-arrow-alt"></i
+                          ></a>
+                        </div>
+                        <div class="p-card-info">
+                          <!-- <span>From</span> -->
+                          <h6>Payed<span>Per Person</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center d-flex justify-content-center">
+          <div class="col-md-4">
+            <a
+              href="allPark.html"
+              class="button-outlined-primary upcoming-btn mt-50"
+              >Show more Tours</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------- Start tour Guider Container -----------------------  -->
+    <div class="guide-area guide-style-one pt-110" id="guide">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-sm-10">
+            <div class="section-head-alpha text-center mx-auto">
+              <h2>Meet Our Tour Guides</h2>
+              <p>
+                Discover the best of Zanzibar with our 
+                experienced and knowledgeable tour guides. 
+                Meet them today and create unforgettable memories.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center g-4">
+          <div class="col-lg-4 col-md-6 col-md-10">
+            <div class="guide-card-beta">
+              <div class="guide-image">
+                <img src="assets/images/guide/guide33.png" alt="" />
+                <ul
+                  class="guide-social-links d-flex justify-content-center flex-column gap-3"
+                >
+                  <li>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="guide-content">
+                <a href="#"><h4 class="guide-name">Shamis Aziz</h4></a>
+                <h6 class="guide-designation">Tour Guide</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-md-10">
+            <div class="guide-card-beta">
+              <div class="guide-image">
+                <img src="assets/images/guide/guide33.png" alt="" />
+                <ul
+                  class="guide-social-links d-flex justify-content-center flex-column gap-3"
+                >
+                  <li>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="guide-content">
+                <a href="#"><h4 class="guide-name">Shamis Aziz</h4></a>
+                <h6 class="guide-designation">Tour Guide</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-md-10">
+            <div class="guide-card-beta">
+              <div class="guide-image">
+                <img src="assets/images/guide/guide33.png" alt="" />
+                <ul
+                  class="guide-social-links d-flex justify-content-center flex-column gap-3"
+                >
+                  <li>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="guide-content">
+                <a href="#"><h4 class="guide-name">Shamis Aziz</h4></a>
+                <h6 class="guide-designation">Tour Guide</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------- End tour Guider Container -----------------------  -->
+
+    <div class="testimonial-area testimonial-style-three pt-110 pb-110 mt-5">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-5 col-sm-10">
+            <div class="section-head-alpha text-lg-start text-center">
+              <h2 class="text-white">Our Travelers Review</h2>
+              <p class="text-white">
+                Our satisfied travelers say it all! 
+                Read our glowing reviews and join the 
+                ranks of those who have experienced the best of Zanzibar.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-10 d-flex justify-content-end">
+            <div
+              class="slider-arrows text-center d-lg-flex flex-row d-none gap-5"
+            >
+              <div
+                class="testi-prev4"
+                tabindex="0"
+                role="button"
+                aria-label="Previous slide"
+              >
+                <i class="bi bi-arrow-left"></i>
+              </div>
+              <div
+                class="testi-next4"
+                tabindex="0"
+                role="button"
+                aria-label="Next slide"
+              >
+                <i class="bi bi-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-12">
+            <div class="swiper testimonial-slider-three">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonial-card-beta mx-auto">
+                    <div class="testimonial-quote-icon">
+                      <img
+                        src="assets/images/icons/quote-review.svg"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="testimonial-card-body">
+                      <div class="testimonial-info">
+                        <div class="reviewr-info">
+                          <div class="single-thumb">
+                            <img
+                              src="assets/images/reviewer/testi32.png"
+                              alt=""
+                            />
+                          </div>
+                          <div class="reviwer-info-cotn">
+                            <h5 class="reviewer-name">Abdul Must</h5>
+                            <ul class="reviewer-rating gap-2">
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="review-texts">
+                        <p>
+                          Discover the best of Zanzibar with 
+                          Faithfull Tour! Enjoy the stunning 
+                          sights and activities tailored to your 
+                          preferences. Join us for a fun-filled adventure!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-card-beta mx-auto">
+                    <div class="testimonial-quote-icon">
+                      <img
+                        src="assets/images/icons/quote-review.svg"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="testimonial-card-body">
+                      <div class="testimonial-info">
+                        <div class="reviewr-info">
+                          <div class="single-thumb">
+                            <img
+                              src="assets/images/reviewer/testi32.png"
+                              alt=""
+                            />
+                          </div>
+                          <div class="reviwer-info-cotn">
+                            <h5 class="reviewer-name">Shamis Aziz</h5>
+                            <ul class="reviewer-rating gap-2">
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="review-texts">
+                        <p>
+                          We're thrilled to have made your Zanzibar 
+                          experience unforgettable! Thank you for choosing 
+                          Faithfull Tour - we'll continue to provide top-notch 
+                          entertainment and sightseeing services.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-card-beta mx-auto">
+                    <div class="testimonial-quote-icon">
+                      <img
+                        src="assets/images/icons/quote-review.svg"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="testimonial-card-body">
+                      <div class="testimonial-info">
+                        <div class="reviewr-info">
+                          <div class="single-thumb">
+                            <img
+                              src="assets/images/reviewer/testi32.png"
+                              alt=""
+                            />
+                          </div>
+                          <div class="reviwer-info-cotn">
+                            <h5 class="reviewer-name">Gurmush Ally</h5>
+                            <ul class="reviewer-rating gap-2">
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                              <li>
+                                <i class="bi bi-star-fill"></i>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="review-texts">
+                        <p>
+                          Our commitment to exceptional service, 
+                          affordable pricing, and personalized customer 
+                          support sets us apart. Experience the refreshing 
+                          difference with Faithfull Tour and Travel Agency.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-update-section mt-5">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center gy-5">
+          <div class="col-lg-6 text-lg-start text-center">
+            <div class="more-update-content">
+              <h2>Join Us for More Update</h2>
+              <p>
+                Stay connected and join us for exclusive updates on the latest tours, 
+                deals and travel experiences. Don't miss out!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 text-lg-end text-center">
+            <button class="button-fill-primary update-btn">Join Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-area">
+      <div class="footer-main-wrapper">
+        <div class="footer-vactor">
+          <img src="assets/images/banner/footer-bg.png" alt="" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center g-4">
+            <div class="col-lg-4">
+              <div class="footer-about text-lg-start text-center">
+                <p>
+                  Zanzibar's top tour operator, Faithfull Tour and Travel Agency, 
+                  delivers exceptional tours and unmatched personalized 
+                  services of the highest quality.
+                </p>
+                <div class="footer-social-wrap">
+                  <h5>Follow Us On:</h5>
+                  <ul
+                    class="footer-social-links justify-content-lg-start justify-content-center"
+                  >
+                    <li>
+                      <a href="#"><i class="bx bxl-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                    </li>
+                    <!-- <li>
+                      <a href="#"><i class="bx bxl-pinterest-alt"></i></a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+              <div class="footer-widget">
+                <h4 class="footer-widget-title">Quick Link</h4>
+                <ul class="footer-links">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="allPark.html">Tour Package</a></li>
+                  <li><a href="destination.html">Destination</a></li>
+                  <li><a href="index.html#guide">Tour Guide</a></li>
+                  <li>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#bookingForm"
+                      href="#"
+                      >Booking Process</a
+                    >
+                  </li>
+                  <!-- <li><a href="blog.html">Blog</a></li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+              <div class="footer-widget">
+                <h4 class="footer-widget-title">Tour Type</h4>
+                <ul class="footer-links">
+                  <li><a href="#">Wild & Adventure Tours</a></li>
+                  <li><a href="#">Group Tour</a></li>
+                  <li><a href="#">Seasonal Tours</a></li>
+                  <li><a href="#">Relaxation Tours</a></li>
+                  <li><a href="#">Family Friendly Tours</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+              <div class="footer-widget">
+                <h4 class="footer-widget-title text-center">Gallery</h4>
+                <div class="footer-gallary-grid">
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-6.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-6.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-5.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-5.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-4.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-4.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-3.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-3.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-2.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-2.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-1.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-1.jpg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-contact-wrapper">
+            <h5>Contact Us:</h5>
+            <ul class="footer-contact-list">
+              <li>
+                <i class="bi bi-telephone-x"></i>
+                <a href="tel:+17632275032">+255 675-364-3742</a>
+              </li>
+              <li>
+                <i class="bi bi-envelope-open"></i>
+                <a
+                  href="https://demo.egenslab.com/cdn-cgi/l/email-protection#fb92959d94bb8f948e89838b8994d5989496"
+                  ><span
+                    class="__cf_email__"
+                    data-cfemail="11787f777e51657e64636961637e3f727e7c"
+                    >alaminTour@gmail.com</span
+                  ></a
+                >
+              </li>
+              <li>
+                <i class="bi bi-geo-alt"></i>
+                <a href="#">Tanzania - Zanzibar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-4 col-md-6 order-lg-1 order-3">
+              <div class="copyright-link text-lg-start text-center">
+                <p>
+                  Copyright 2021 AlaminTour | 
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=255772800257&text=Hello! Shamis, I Would Like to...."
+                    >Design By Shamis</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 order-lg-2 order-1">
+              <div class="footer-logo text-center">
+                <a href="index.html"
+                  ><img src="assets/images/logo-w.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 order-lg-3 order-2">
+              <div class="policy-links">
+                <ul
+                  class="policy-list justify-content-lg-end justify-content-center"
+                >
+                  <li><a href="https://api.whatsapp.com/send?phone=255772800257&text=Hello! Shamis, I Would Like to....">Developed By Shamis</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================== This is Booking model ====================== -->
+    <div
+      class="modal fade"
+      id="bookingForm"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header widget-title text-center mybg text-white">
+            <h4 class="modal-title" id="staticBackdropLabel">Book For Tours</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <aside class="package-widget-style-2 widget-form mt-30">
+              <div class="widget-body">
+                <form action="#" method="post" id="booking-form">
+                  <div class="booking-form-wrapper">
+                    <div class="custom-input-group">
+                      <input
+                        type="text"
+                        placeholder="Your Full Name"
+                        id="name"
+                      />
+                    </div>
+                    <div class="custom-input-group">
+                      <input type="email" placeholder="Your Email" id="email" />
+                    </div>
+                    <div class="custom-input-group">
+                      <input type="tel" placeholder="Phone" id="phone" />
+                    </div>
+                    <div class="custom-input-group">
+                      <i class="bi bi-chevron-down"></i>
+                      <select id="ticket_type">
+                        <option selected>Tickets Type</option>
+                        <option value="1">Tickets Type 1</option>
+                        <option value="2">Tickets Type 2</option>
+                        <option value="3">Tickets Type 3</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="custom-input-group">
+                          <i class="bi bi-chevron-down"></i>
+                          <select id="truist-adult">
+                            <option selected>Adult</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="custom-input-group">
+                          <i class="bi bi-chevron-down"></i>
+                          <select id="tourist-child">
+                            <option selected>Child</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="custom-input-group">
+                      <i class="bi bi-calendar3"></i>
+                      <input
+                        placeholder="Select your date"
+                        type="text"
+                        name="checkIn"
+                        id="datepicker2"
+                        value=""
+                        class="calendar"
+                      />
+                    </div>
+                    <div class="custom-input-group">
+                      <textarea
+                        cols="20"
+                        rows="7"
+                        placeholder="Your message"
+                      ></textarea>
+                    </div>
+                    <div class="custom-input-group">
+                      <div class="submite-btn">
+                        <button type="submit">Book Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =================== End of Booking model ====================== -->
+
+    <script
+      data-cfasync="false"
+      src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/chain_fade.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/custom-swiper.js"></script>
+  </body>
+</html>

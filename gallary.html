@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tour | Safaries</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="assets/images/favicon.png"
+      type="image/gif"
+      sizes="20x20"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/select2.min.css" />
+
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+
+    <link href="assets/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- <div class="mobile-search">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-11">
+            <label>What are you lookking for?</label>
+            <input type="text" placeholder="Search Products, Category, Brand" />
+          </div>
+          <div class="col-1 d-flex justify-content-end align-items-center">
+            <div class="search-cross-btn">
+              <i class="bi bi-x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="category-sidebar-wrapper">
+      <div class="category-sidebar">
+        <div
+          class="category-header d-flex justify-content-between align-items-center"
+        >
+          <h4>Category</h4>
+          <div class="category-toggle">
+            <i class="bi bi-x-lg"></i>
+          </div>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-2 gy-5 mt-3">
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate1.svg" alt="" />
+              </div>
+              <h5>Adventure</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate2.svg" alt="" />
+              </div>
+              <h5>Group Tour</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate3.svg" alt="" />
+              </div>
+              <h5>Couple Tour</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate4.svg" alt="" />
+              </div>
+              <h5>Single Tour</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate5.svg" alt="" />
+              </div>
+              <h5>Honeymoon</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate6.svg" alt="" />
+              </div>
+              <h5>Sea Beach</h5>
+            </a>
+          </div>
+          <div class="col">
+            <a class="category-box" href="allPark.html">
+              <div class="cate-icon mx-auto">
+                <img src="assets/images/icons/cate7.svg" alt="" />
+              </div>
+              <h5>Mountain Tour</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar-area topbar-style-two d-sm-flex d-none">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 d-md-flex d-none justify-content-start align-items-center"
+          >
+            <div class="topbar-contact-left">
+              <ul class="contact-list">
+                <li>
+                  <i class="bi bi-telephone-fill"></i>
+                  <a href="tel:+17632275032">+255 736-273-2737</a>
+                </li>
+                <li>
+                  <i class="bi bi-envelope-fill"></i>
+                  <a
+                    href="https://demo.egenslab.com/cdn-cgi/l/email-protection#167f78707956736e777b667a733875797b"
+                    ><span
+                      class="__cf_email__"
+                      data-cfemail="fa93949c95ba9f829b978a969fd4999597"
+                      >alaminTour@gmail.com</span
+                    ></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 d-flex justify-content-md-end justify-content-center align-items-center"
+          >
+            <ul class="topbar-social-links">
+              <li>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+              </li>
+              <!-- <li>
+                <a href="#"><i class="bx bxl-pinterest"></i></a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="header-area header-style-four position-absolute w-100">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-xxl-2 col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 align-items-center d-xl-flex d-lg-block"
+            >
+              <div
+                class="nav-logo d-flex justify-content-between align-items-center"
+              >
+                <a href="index.html"
+                  ><img src="assets/images/logo-w.png" alt="logo"
+                /></a>
+                <div class="mobile-menu d-flex">
+                  <div class="d-flex align-items-center">
+                    <div
+                      class="nav-right-icons d-xl-none d-flex align-items-center"
+                    >
+                    <div class="user-dropdown">
+                      <a href="contact.html"><i class="bx bx-user-circle"></i></a>
+                    </div>
+                    
+                      <div class="category-toggle">
+                        <i class="bx bx-category"></i>
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      class="hamburger d-block d-xl-none"
+                    >
+                      <span class="h-top"></span>
+                      <span class="h-middle"></span>
+                      <span class="h-bottom"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-8 col-sm-6 col-xs-6">
+              <nav class="main-nav">
+                <div class="inner-logo d-xl-none text-center">
+                  <a href="#"><img src="assets/images/logo.png" alt="" /></a>
+                </div>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="destination.html">Destination</a></li>
+
+                  <li class="has-child-menu">
+                    <a href="javascript:void(0)">Package</a>
+                    <i class="fl flaticon-plus">+</i>
+                    <ul class="sub-menu">
+                      <li><a href="tour-park.html">Tours Package</a></li>
+                      <li>
+                        <a href="safari-park.html">Safaries Package</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li><a href="gallary.html">Gallary</a></li>
+
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="inner-contact-options d-xl-none">
+                  <div class="contact-box-inner">
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="tel:+17632275032">+255 763-227-5032</a>
+                  </div>
+                  <div class="contact-box-inner">
+                    <i class="bi bi-envelope-fill"></i>
+                    <a
+                      href="https://demo.egenslab.com/cdn-cgi/l/email-protection#4920272f26092c31282439252c672a2624"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="1f767179705f7a677e726f737a317c7072"
+                        >alamintour@gmail.com</span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="col-xxl-3 col-xl-2 col-lg-1">
+              <div class="nav-right d-xl-flex d-none">
+                <div class="nav-right-icons gap-3">
+                  <!-- <div class="header-search search-btn">
+                    <i class="bx bx-search-alt"></i>
+                  </div> -->
+                  <div class="category-toggle">
+                    <i class="bx bx-category"></i>
+                  </div>
+                </div>
+                <div class="nav-right-hotline d-xxl-flex d-none">
+                  <div class="hotline-icon">
+                    <img src="assets/images/icons/header-phone.svg" alt="" />
+                  </div>
+                  <div class="hotline-info">
+                    <span>Hot Line Number</span>
+                    <h6><a href="tel:8801761111456">+880 176 1111 456</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="breadcrumb breadcrumb-style-one">
+      <div class="container">
+        <div class="col-lg-12 text-center">
+          <h2 class="breadcrumb-title">Gallery</h2>
+          <ul class="d-flex justify-content-center breadcrumb-items">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active">Gallery</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallary-wrapper">
+      <div class="container">
+        <div class="gallary-group pt-80">
+          <div class="gallary-group-header">
+            <h4 class="gallary-group-title">These are some of the top attractions in Tanzania</h4>
+            <div class="gallary-arrows text-center d-lg-block d-none">
+              <div
+                class="gallary-button-prev gallary-prev1"
+                tabindex="0"
+                role="button"
+                aria-label="Previous slide"
+              >
+                <i class="bi bi-chevron-double-left"></i>
+              </div>
+              <div
+                class="gallary-button-next gallary-next1"
+                tabindex="0"
+                role="button"
+                aria-label="Next slide"
+              >
+                <i class="bi bi-chevron-double-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="swiper gallary-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/g-sm2.png"
+                      alt="Image Gallery"
+                    />
+                    <a
+                      href="assets/images/gallary/g-sm2.png"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/g-sm1.png"
+                      alt="Image Gallery"
+                    />
+                    <a
+                      href="assets/images/gallary/g-sm1.png"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-1.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      href="assets/images/gallary/gall-1.jpg"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-10.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      class="gallary-item-overlay"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      href="assets/images/gallary/gall-10.jpg"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-2.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      href="assets/images/gallary/gall-2.jpg"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-3.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      href="assets/images/gallary/gall-3.jpg"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-4.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      href="assets/images/gallary/gall-4.jpg"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallary-group pt-80">
+          <div class="gallary-group-header">
+            <!-- <h4 class="gallary-group-title">Tour Guide Gallery</h4> -->
+            <div class="gallary-arrows text-center d-lg-block d-none">
+              <div
+                class="gallary-button-prev gallary-prev2"
+                tabindex="0"
+                role="button"
+                aria-label="Previous slide"
+              >
+                <i class="bi bi-chevron-double-left"></i>
+              </div>
+              <div
+                class="gallary-button-next gallary-next2"
+                tabindex="0"
+                role="button"
+                aria-label="Next slide"
+              >
+                <i class="bi bi-chevron-double-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="swiper gallary-slider2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/g-sm3.png"
+                      alt="Image Gallery"
+                    />
+                    <a
+                      href="assets/images/gallary/g-sm3.png"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/g-sm4.png"
+                      alt="Image Gallery"
+                    />
+                    <a
+                      href="assets/images/gallary/g-sm4.png"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-5.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      href="assets/images/gallary/gall-5.jpg"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-6.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      class="gallary-item-overlay"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      href="assets/images/gallary/gall-6.jpg"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-7.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      href="assets/images/gallary/gall-7.jpg"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-8.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      href="assets/images/gallary/gall-8.jpg"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                  <div class="gallary-item">
+                    <img
+                      src="assets/images/gallary/gall-9.jpg"
+                      alt="Image Gallery"
+                      height="300px"
+                    />
+                    <a
+                      href="assets/images/gallary/gall-9.jpg"
+                      data-fancybox="gallery"
+                      data-caption="Among The Attractions"
+                      class="gallary-item-overlay"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-area mt-5">
+      <div class="footer-main-wrapper">
+        <div class="footer-vactor">
+          <img src="assets/images/banner/footer-bg.png" alt="" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center g-4">
+            <div class="col-lg-4">
+              <div class="footer-about text-lg-start text-center">
+                <p>
+                  Zanzibar's top tour operator, Faithfull Tour and Travel Agency, 
+                  delivers exceptional tours and unmatched personalized 
+                  services of the highest quality.
+                </p>
+                <div class="footer-social-wrap">
+                  <h5>Follow Us On:</h5>
+                  <ul
+                    class="footer-social-links justify-content-lg-start justify-content-center"
+                  >
+                    <li>
+                      <a href="#"><i class="bx bxl-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                    </li>
+                    <!-- <li>
+                      <a href="#"><i class="bx bxl-pinterest-alt"></i></a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+              <div class="footer-widget">
+                <h4 class="footer-widget-title">Quick Link</h4>
+                <ul class="footer-links">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="allPark.html">Tour Package</a></li>
+                  <li><a href="destination.html">Destination</a></li>
+                  <li><a href="index.html#guide">Tour Guide</a></li>
+                  <li>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#bookingForm"
+                      href="#"
+                      >Booking Process</a
+                    >
+                  </li>
+                  <!-- <li><a href="blog.html">Blog</a></li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+              <div class="footer-widget">
+                <h4 class="footer-widget-title">Tour Type</h4>
+                <ul class="footer-links">
+                  <li><a href="#">Wild & Adventure Tours</a></li>
+                  <li><a href="#">Group Tour</a></li>
+                  <li><a href="#">Seasonal Tours</a></li>
+                  <li><a href="#">Relaxation Tours</a></li>
+                  <li><a href="#">Family Friendly Tours</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+              <div class="footer-widget">
+                <h4 class="footer-widget-title text-center">Gallery</h4>
+                <div class="footer-gallary-grid">
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-6.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-6.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-5.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-5.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-4.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-4.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-3.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-3.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-2.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-2.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-gallary-item">
+                    <a
+                      href="assets/images/gallary/gall-1.jpg"
+                      data-fancybox="footer"
+                      data-caption="Among The Attractions"
+                      ><img height="80px" src="assets/images/gallary/gall-1.jpg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-contact-wrapper">
+            <h5>Contact Us:</h5>
+            <ul class="footer-contact-list">
+              <li>
+                <i class="bi bi-telephone-x"></i>
+                <a href="tel:+17632275032">+255 675-364-3742</a>
+              </li>
+              <li>
+                <i class="bi bi-envelope-open"></i>
+                <a
+                  href="https://demo.egenslab.com/cdn-cgi/l/email-protection#fb92959d94bb8f948e89838b8994d5989496"
+                  ><span
+                    class="__cf_email__"
+                    data-cfemail="11787f777e51657e64636961637e3f727e7c"
+                    >alaminTour@gmail.com</span
+                  ></a
+                >
+              </li>
+              <li>
+                <i class="bi bi-geo-alt"></i>
+                <a href="#">Tanzania - Zanzibar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-4 col-md-6 order-lg-1 order-3">
+              <div class="copyright-link text-lg-start text-center">
+                <p>
+                  Copyright 2021 AlaminTour | 
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=255772800257&text=Hello! Shamis, I Would Like to...."
+                    >Design By Shamis</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 order-lg-2 order-1">
+              <div class="footer-logo text-center">
+                <a href="index.html"
+                  ><img src="assets/images/logo-w.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 order-lg-3 order-2">
+              <div class="policy-links">
+                <ul
+                  class="policy-list justify-content-lg-end justify-content-center"
+                >
+                  <li><a href="https://api.whatsapp.com/send?phone=255772800257&text=Hello! Shamis, I Would Like to....">Developed By Shamis</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      data-cfasync="false"
+      src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/chain_fade.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+
+  <!-- Mirrored from demo.egenslab.com/html/tourxpro/demo/gallary.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Mar 2023 15:07:26 GMT -->
+</html>
